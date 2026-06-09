@@ -4,6 +4,8 @@ Turns a declarative survey definition into **N realistic, internally-coherent
 synthetic responses**. Built for the "E-commerce Customer Satisfaction" brief,
 but the schema is generic — point it at any survey JSON.
 
+Web demo: https://survey-generator-3eus.onrender.com/
+
 It handles **rating scales (1–5)**, **NPS (0–10)**, **single-choice**, and
 **open-text** questions, and ships with a validation suite that *measures*
 whether the output is plausible and coherent.
