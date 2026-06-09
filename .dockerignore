@@ -1,0 +1,9 @@
+dashboard/node_modules
+dashboard/dist
+.venv
+venv
+__pycache__
+*.pyc
+.git
+.env
+comparison_run

@@ -1,0 +1,2033 @@
+{
+  "survey": "E-commerce Customer Satisfaction",
+  "n": 200,
+  "questions": [
+    {
+      "id": "q1_satisfaction",
+      "text": "Overall satisfaction?",
+      "type": "rating"
+    },
+    {
+      "id": "q2_recommend",
+      "text": "Likelihood to recommend?",
+      "type": "nps"
+    },
+    {
+      "id": "q3_category",
+      "text": "Category purchased?",
+      "type": "single_choice"
+    },
+    {
+      "id": "q4_delivery_on_time",
+      "text": "Was delivery on time?",
+      "type": "single_choice"
+    },
+    {
+      "id": "q5_improve",
+      "text": "What could we improve?",
+      "type": "open_text"
+    }
+  ],
+  "responses": [
+    {
+      "respondent_id": "R0001",
+      "_persona": "detractor",
+      "_latent_satisfaction": 0.127,
+      "q1_satisfaction": 2,
+      "q2_recommend": 0,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Frustrated, to be honest — less wasteful packaging would be great."
+    },
+    {
+      "respondent_id": "R0002",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.797,
+      "q1_satisfaction": 4,
+      "q2_recommend": 9,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Loved it."
+    },
+    {
+      "respondent_id": "R0003",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.925,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Honestly, nothing major."
+    },
+    {
+      "respondent_id": "R0004",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.925,
+      "q1_satisfaction": 3,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "No real complaints — more colour options on electronics items."
+    },
+    {
+      "respondent_id": "R0005",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.271,
+      "q1_satisfaction": 2,
+      "q2_recommend": 1,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Quite let down — refunds took too long to come through."
+    },
+    {
+      "respondent_id": "R0006",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.9,
+      "q1_satisfaction": 5,
+      "q2_recommend": 8,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Nothing to add"
+    },
+    {
+      "respondent_id": "R0007",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.91,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "No real complaints — faster checkout would be a small plus."
+    },
+    {
+      "respondent_id": "R0008",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 1.0,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0009",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.029,
+      "q1_satisfaction": 1,
+      "q2_recommend": 0,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Quite let down — build quality on the clothing product could be better."
+    },
+    {
+      "respondent_id": "R0010",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.916,
+      "q1_satisfaction": 5,
+      "q2_recommend": 9,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Very smooth from start to finish."
+    },
+    {
+      "respondent_id": "R0011",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.766,
+      "q1_satisfaction": 4,
+      "q2_recommend": 7,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "No major issues, still the electronics item didn't quite match the description, and my electronics item arrived in flimsy packaging."
+    },
+    {
+      "respondent_id": "R0012",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.781,
+      "q1_satisfaction": 4,
+      "q2_recommend": 7,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Pretty much perfect."
+    },
+    {
+      "respondent_id": "R0013",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.882,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Very smooth from start to finish."
+    },
+    {
+      "respondent_id": "R0014",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.749,
+      "q1_satisfaction": 3,
+      "q2_recommend": 9,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Great service overall — more colour options on electronics items."
+    },
+    {
+      "respondent_id": "R0015",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.611,
+      "q1_satisfaction": 3,
+      "q2_recommend": 6,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "No",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0016",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.941,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "-"
+    },
+    {
+      "respondent_id": "R0017",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.951,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Very smooth from start to finish — faster checkout would be a small plus."
+    },
+    {
+      "respondent_id": "R0018",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.841,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Very smooth from start to finish — maybe a few more deals would be nice."
+    },
+    {
+      "respondent_id": "R0019",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.788,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Loved it."
+    },
+    {
+      "respondent_id": "R0020",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.658,
+      "q1_satisfaction": 4,
+      "q2_recommend": 5,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0021",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.817,
+      "q1_satisfaction": 4,
+      "q2_recommend": 8,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "No real complaints — maybe a few more deals would be nice."
+    },
+    {
+      "respondent_id": "R0022",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.562,
+      "q1_satisfaction": 3,
+      "q2_recommend": 6,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Mostly fine, but the shipping fee felt steep, and make returns and refunds simpler and faster."
+    },
+    {
+      "respondent_id": "R0023",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.465,
+      "q1_satisfaction": 3,
+      "q2_recommend": 4,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0024",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.872,
+      "q1_satisfaction": 5,
+      "q2_recommend": 9,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Honestly, nothing major."
+    },
+    {
+      "respondent_id": "R0025",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.803,
+      "q1_satisfaction": 4,
+      "q2_recommend": 8,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "No real complaints."
+    },
+    {
+      "respondent_id": "R0026",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.904,
+      "q1_satisfaction": 5,
+      "q2_recommend": 9,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0027",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.589,
+      "q1_satisfaction": 4,
+      "q2_recommend": 6,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Good in general, however customer support was slow to respond."
+    },
+    {
+      "respondent_id": "R0028",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.844,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Pretty much perfect — faster checkout would be a small plus."
+    },
+    {
+      "respondent_id": "R0029",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.356,
+      "q1_satisfaction": 3,
+      "q2_recommend": 2,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Not a great experience this time — a clearer discount policy would be appreciated, and build quality on the home product could be better."
+    },
+    {
+      "respondent_id": "R0030",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.652,
+      "q1_satisfaction": 4,
+      "q2_recommend": 6,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0031",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.897,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Loved it."
+    },
+    {
+      "respondent_id": "R0032",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.897,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Great service overall — keep doing what you're doing."
+    },
+    {
+      "respondent_id": "R0033",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.579,
+      "q1_satisfaction": 3,
+      "q2_recommend": 7,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0034",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.971,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "No real complaints."
+    },
+    {
+      "respondent_id": "R0035",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.974,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "N/A"
+    },
+    {
+      "respondent_id": "R0036",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.846,
+      "q1_satisfaction": 5,
+      "q2_recommend": 8,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Great service overall — more colour options on electronics items."
+    },
+    {
+      "respondent_id": "R0037",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.468,
+      "q1_satisfaction": 3,
+      "q2_recommend": 4,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Good in general, however support could be more helpful and responsive."
+    },
+    {
+      "respondent_id": "R0038",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.201,
+      "q1_satisfaction": 2,
+      "q2_recommend": 0,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Frustrated, to be honest — the shipping fee felt steep."
+    },
+    {
+      "respondent_id": "R0039",
+      "_persona": "detractor",
+      "_latent_satisfaction": 0.0,
+      "q1_satisfaction": 1,
+      "q2_recommend": 0,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Quite let down — a better size guide for clothing would help a lot."
+    },
+    {
+      "respondent_id": "R0040",
+      "_persona": "detractor",
+      "_latent_satisfaction": 0.173,
+      "q1_satisfaction": 2,
+      "q2_recommend": 0,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Pretty disappointed — less wasteful packaging would be great."
+    },
+    {
+      "respondent_id": "R0041",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.899,
+      "q1_satisfaction": 4,
+      "q2_recommend": 8,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0042",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 1.0,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Honestly, nothing major — perhaps a loyalty program for regulars."
+    },
+    {
+      "respondent_id": "R0043",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.873,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Honestly, nothing major."
+    },
+    {
+      "respondent_id": "R0044",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.29,
+      "q1_satisfaction": 3,
+      "q2_recommend": 0,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Pretty disappointed — real-time tracking would make a big difference."
+    },
+    {
+      "respondent_id": "R0045",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.949,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Very smooth from start to finish."
+    },
+    {
+      "respondent_id": "R0046",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.874,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Honestly, nothing major — more colour options on clothing items."
+    },
+    {
+      "respondent_id": "R0047",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.979,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "All good"
+    },
+    {
+      "respondent_id": "R0048",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.639,
+      "q1_satisfaction": 4,
+      "q2_recommend": 6,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Mostly fine, but more competitive pricing would help, and build quality on the clothing product could be better."
+    },
+    {
+      "respondent_id": "R0049",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.913,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Very smooth from start to finish — a wider home selection would be a bonus."
+    },
+    {
+      "respondent_id": "R0050",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.632,
+      "q1_satisfaction": 4,
+      "q2_recommend": 6,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Decent experience overall, though refunds took too long to come through, and build quality on the clothing product could be better."
+    },
+    {
+      "respondent_id": "R0051",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.845,
+      "q1_satisfaction": 4,
+      "q2_recommend": 8,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Great service overall."
+    },
+    {
+      "respondent_id": "R0052",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.16,
+      "q1_satisfaction": 1,
+      "q2_recommend": 0,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Really not impressed — the shipping fee felt steep, and refunds took too long to come through."
+    },
+    {
+      "respondent_id": "R0053",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.999,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Great service overall — more colour options on electronics items."
+    },
+    {
+      "respondent_id": "R0054",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.625,
+      "q1_satisfaction": 4,
+      "q2_recommend": 5,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0055",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.947,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Honestly, nothing major."
+    },
+    {
+      "respondent_id": "R0056",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.713,
+      "q1_satisfaction": 4,
+      "q2_recommend": 7,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "All good"
+    },
+    {
+      "respondent_id": "R0057",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.968,
+      "q1_satisfaction": 5,
+      "q2_recommend": 9,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Nothing to add"
+    },
+    {
+      "respondent_id": "R0058",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.919,
+      "q1_satisfaction": 4,
+      "q2_recommend": 8,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "No real complaints."
+    },
+    {
+      "respondent_id": "R0059",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 1.0,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "All good"
+    },
+    {
+      "respondent_id": "R0060",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.809,
+      "q1_satisfaction": 4,
+      "q2_recommend": 7,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "No",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0061",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.702,
+      "q1_satisfaction": 4,
+      "q2_recommend": 7,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Honestly, nothing major."
+    },
+    {
+      "respondent_id": "R0062",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.921,
+      "q1_satisfaction": 4,
+      "q2_recommend": 9,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "-"
+    },
+    {
+      "respondent_id": "R0063",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.83,
+      "q1_satisfaction": 4,
+      "q2_recommend": 8,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "It was okay, search and filters on the site need work, and my order showed up days after the delivery date."
+    },
+    {
+      "respondent_id": "R0064",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.963,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Very smooth from start to finish — more colour options on home items."
+    },
+    {
+      "respondent_id": "R0065",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.544,
+      "q1_satisfaction": 4,
+      "q2_recommend": 7,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Good in general, however a better size guide for clothing would help a lot."
+    },
+    {
+      "respondent_id": "R0066",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.608,
+      "q1_satisfaction": 4,
+      "q2_recommend": 5,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "It was okay, the sizing on clothing runs inconsistent, and the clothing item felt lower quality than the photos suggested."
+    },
+    {
+      "respondent_id": "R0067",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.73,
+      "q1_satisfaction": 3,
+      "q2_recommend": 7,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "No major issues, still less wasteful packaging would be great."
+    },
+    {
+      "respondent_id": "R0068",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.994,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Really happy with the experience — faster checkout would be a small plus."
+    },
+    {
+      "respondent_id": "R0069",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.716,
+      "q1_satisfaction": 3,
+      "q2_recommend": 7,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "All good"
+    },
+    {
+      "respondent_id": "R0070",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 1.0,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Honestly, nothing major — more colour options on other items."
+    },
+    {
+      "respondent_id": "R0071",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.287,
+      "q1_satisfaction": 3,
+      "q2_recommend": 1,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Really not impressed — make returns and refunds simpler and faster, and prices feel a little high compared to competitors."
+    },
+    {
+      "respondent_id": "R0072",
+      "_persona": "detractor",
+      "_latent_satisfaction": 0.0,
+      "q1_satisfaction": 1,
+      "q2_recommend": 0,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Frustrated, to be honest — shipping took far longer than the estimate, and more competitive pricing would help."
+    },
+    {
+      "respondent_id": "R0073",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 1.0,
+      "q1_satisfaction": 5,
+      "q2_recommend": 9,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "-"
+    },
+    {
+      "respondent_id": "R0074",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.63,
+      "q1_satisfaction": 3,
+      "q2_recommend": 6,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "No major issues, still it was hard to reach a human when I had a question, and a clearer discount policy would be appreciated."
+    },
+    {
+      "respondent_id": "R0075",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.577,
+      "q1_satisfaction": 3,
+      "q2_recommend": 6,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "It was okay, the packaging could be sturdier."
+    },
+    {
+      "respondent_id": "R0076",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.779,
+      "q1_satisfaction": 4,
+      "q2_recommend": 8,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Pretty much perfect."
+    },
+    {
+      "respondent_id": "R0077",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 1.0,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Great service overall — keep doing what you're doing."
+    },
+    {
+      "respondent_id": "R0078",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.583,
+      "q1_satisfaction": 3,
+      "q2_recommend": 6,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Good in general, however the delivery arrived later than promised."
+    },
+    {
+      "respondent_id": "R0079",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.729,
+      "q1_satisfaction": 4,
+      "q2_recommend": 9,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "N/A"
+    },
+    {
+      "respondent_id": "R0080",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.885,
+      "q1_satisfaction": 5,
+      "q2_recommend": 9,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "N/A"
+    },
+    {
+      "respondent_id": "R0081",
+      "_persona": "detractor",
+      "_latent_satisfaction": 0.126,
+      "q1_satisfaction": 1,
+      "q2_recommend": 0,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Frustrated, to be honest — a clearer discount policy would be appreciated, and the clothing item didn't quite match the description."
+    },
+    {
+      "respondent_id": "R0082",
+      "_persona": "detractor",
+      "_latent_satisfaction": 0.08,
+      "q1_satisfaction": 1,
+      "q2_recommend": 0,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Not a great experience this time — the home item didn't quite match the description."
+    },
+    {
+      "respondent_id": "R0083",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.816,
+      "q1_satisfaction": 4,
+      "q2_recommend": 8,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Very smooth from start to finish."
+    },
+    {
+      "respondent_id": "R0084",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.984,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Really happy with the experience — more colour options on electronics items."
+    },
+    {
+      "respondent_id": "R0085",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.932,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "No real complaints — more colour options on electronics items."
+    },
+    {
+      "respondent_id": "R0086",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.811,
+      "q1_satisfaction": 4,
+      "q2_recommend": 9,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Loved it — a wider electronics selection would be a bonus."
+    },
+    {
+      "respondent_id": "R0087",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.933,
+      "q1_satisfaction": 5,
+      "q2_recommend": 8,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "-"
+    },
+    {
+      "respondent_id": "R0088",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 1.0,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Great service overall — more colour options on clothing items."
+    },
+    {
+      "respondent_id": "R0089",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.287,
+      "q1_satisfaction": 2,
+      "q2_recommend": 3,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "No",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0090",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.808,
+      "q1_satisfaction": 5,
+      "q2_recommend": 9,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Good in general, however the parcel was delayed with no real updates."
+    },
+    {
+      "respondent_id": "R0091",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.39,
+      "q1_satisfaction": 2,
+      "q2_recommend": 4,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Quite let down — prices feel a little high compared to competitors, and refunds took too long to come through."
+    },
+    {
+      "respondent_id": "R0092",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.872,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0093",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.657,
+      "q1_satisfaction": 4,
+      "q2_recommend": 7,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0094",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.354,
+      "q1_satisfaction": 2,
+      "q2_recommend": 4,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Quite let down — a clearer discount policy would be appreciated, and real-time tracking would make a big difference."
+    },
+    {
+      "respondent_id": "R0095",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.817,
+      "q1_satisfaction": 4,
+      "q2_recommend": 8,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Pretty much perfect — more colour options on home items."
+    },
+    {
+      "respondent_id": "R0096",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.59,
+      "q1_satisfaction": 4,
+      "q2_recommend": 7,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "No major issues, still support could be more helpful and responsive."
+    },
+    {
+      "respondent_id": "R0097",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.838,
+      "q1_satisfaction": 4,
+      "q2_recommend": 8,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Great service overall."
+    },
+    {
+      "respondent_id": "R0098",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.852,
+      "q1_satisfaction": 4,
+      "q2_recommend": 8,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Really happy with the experience — more colour options on clothing items."
+    },
+    {
+      "respondent_id": "R0099",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.723,
+      "q1_satisfaction": 4,
+      "q2_recommend": 7,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "N/A"
+    },
+    {
+      "respondent_id": "R0100",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.715,
+      "q1_satisfaction": 4,
+      "q2_recommend": 7,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Nothing to add"
+    },
+    {
+      "respondent_id": "R0101",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.985,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Great service overall."
+    },
+    {
+      "respondent_id": "R0102",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.915,
+      "q1_satisfaction": 5,
+      "q2_recommend": 9,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Honestly, nothing major — faster checkout would be a small plus."
+    },
+    {
+      "respondent_id": "R0103",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.937,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "-"
+    },
+    {
+      "respondent_id": "R0104",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.911,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Very smooth from start to finish — faster checkout would be a small plus."
+    },
+    {
+      "respondent_id": "R0105",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.455,
+      "q1_satisfaction": 2,
+      "q2_recommend": 4,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Good in general, however customer support was slow to respond."
+    },
+    {
+      "respondent_id": "R0106",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.818,
+      "q1_satisfaction": 5,
+      "q2_recommend": 8,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "No real complaints — maybe a few more deals would be nice."
+    },
+    {
+      "respondent_id": "R0107",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.859,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0108",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.122,
+      "q1_satisfaction": 2,
+      "q2_recommend": 0,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Frustrated, to be honest — my order showed up days after the delivery date, and support could be more helpful and responsive."
+    },
+    {
+      "respondent_id": "R0109",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.778,
+      "q1_satisfaction": 4,
+      "q2_recommend": 9,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "No major issues, still I'd love clearer, more accurate order tracking, and a clearer discount policy would be appreciated."
+    },
+    {
+      "respondent_id": "R0110",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.297,
+      "q1_satisfaction": 3,
+      "q2_recommend": 2,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Quite let down — the shipping fee felt steep."
+    },
+    {
+      "respondent_id": "R0111",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.777,
+      "q1_satisfaction": 4,
+      "q2_recommend": 8,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Pretty much perfect — perhaps a loyalty program for regulars."
+    },
+    {
+      "respondent_id": "R0112",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.98,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Really happy with the experience — more colour options on home items."
+    },
+    {
+      "respondent_id": "R0113",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.835,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Very smooth from start to finish."
+    },
+    {
+      "respondent_id": "R0114",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.967,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Very smooth from start to finish — faster checkout would be a small plus."
+    },
+    {
+      "respondent_id": "R0115",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.813,
+      "q1_satisfaction": 4,
+      "q2_recommend": 7,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Nothing to add"
+    },
+    {
+      "respondent_id": "R0116",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.505,
+      "q1_satisfaction": 3,
+      "q2_recommend": 3,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Decent experience overall, though shipping was right on time."
+    },
+    {
+      "respondent_id": "R0117",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.549,
+      "q1_satisfaction": 3,
+      "q2_recommend": 5,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "No major issues, still shipping was right on time."
+    },
+    {
+      "respondent_id": "R0118",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.88,
+      "q1_satisfaction": 4,
+      "q2_recommend": 9,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Very smooth from start to finish — more colour options on home items."
+    },
+    {
+      "respondent_id": "R0119",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.579,
+      "q1_satisfaction": 3,
+      "q2_recommend": 6,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "No",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0120",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.489,
+      "q1_satisfaction": 3,
+      "q2_recommend": 4,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Good in general, however the electronics item felt lower quality than the photos suggested."
+    },
+    {
+      "respondent_id": "R0121",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.905,
+      "q1_satisfaction": 5,
+      "q2_recommend": 8,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Loved it — more colour options on home items."
+    },
+    {
+      "respondent_id": "R0122",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 1.0,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Loved it."
+    },
+    {
+      "respondent_id": "R0123",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.594,
+      "q1_satisfaction": 4,
+      "q2_recommend": 7,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "No",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0124",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.735,
+      "q1_satisfaction": 4,
+      "q2_recommend": 8,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "No real complaints."
+    },
+    {
+      "respondent_id": "R0125",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.886,
+      "q1_satisfaction": 5,
+      "q2_recommend": 9,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "N/A"
+    },
+    {
+      "respondent_id": "R0126",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.891,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Loved it — perhaps a loyalty program for regulars."
+    },
+    {
+      "respondent_id": "R0127",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.33,
+      "q1_satisfaction": 2,
+      "q2_recommend": 2,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Pretty disappointed — the shipping fee felt steep."
+    },
+    {
+      "respondent_id": "R0128",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.744,
+      "q1_satisfaction": 4,
+      "q2_recommend": 8,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "It was okay, the parcel was delayed with no real updates."
+    },
+    {
+      "respondent_id": "R0129",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.778,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Nothing to add"
+    },
+    {
+      "respondent_id": "R0130",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.0,
+      "q1_satisfaction": 2,
+      "q2_recommend": 0,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Really not impressed — the delivery arrived later than promised, and the returns process was more painful than it should be."
+    },
+    {
+      "respondent_id": "R0131",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.688,
+      "q1_satisfaction": 3,
+      "q2_recommend": 8,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Very smooth from start to finish."
+    },
+    {
+      "respondent_id": "R0132",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.486,
+      "q1_satisfaction": 3,
+      "q2_recommend": 1,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Decent experience overall, though support could be more helpful and responsive, and the packaging could be sturdier."
+    },
+    {
+      "respondent_id": "R0133",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.24,
+      "q1_satisfaction": 2,
+      "q2_recommend": 2,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Really not impressed — make returns and refunds simpler and faster, and the clothing item didn't quite match the description."
+    },
+    {
+      "respondent_id": "R0134",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.968,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Loved it."
+    },
+    {
+      "respondent_id": "R0135",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 1.0,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Really happy with the experience."
+    },
+    {
+      "respondent_id": "R0136",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 1.0,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Really happy with the experience."
+    },
+    {
+      "respondent_id": "R0137",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.914,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Loved it — more colour options on home items."
+    },
+    {
+      "respondent_id": "R0138",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.929,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0139",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.871,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Great service overall — more colour options on other items."
+    },
+    {
+      "respondent_id": "R0140",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.098,
+      "q1_satisfaction": 1,
+      "q2_recommend": 0,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Frustrated, to be honest — the website could be easier to navigate, and it was hard to reach a human when I had a question."
+    },
+    {
+      "respondent_id": "R0141",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.951,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Great service overall."
+    },
+    {
+      "respondent_id": "R0142",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.97,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Really happy with the experience."
+    },
+    {
+      "respondent_id": "R0143",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.665,
+      "q1_satisfaction": 3,
+      "q2_recommend": 8,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Decent experience overall, though make returns and refunds simpler and faster."
+    },
+    {
+      "respondent_id": "R0144",
+      "_persona": "detractor",
+      "_latent_satisfaction": 0.229,
+      "q1_satisfaction": 1,
+      "q2_recommend": 0,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Pretty disappointed — prices feel a little high compared to competitors."
+    },
+    {
+      "respondent_id": "R0145",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.795,
+      "q1_satisfaction": 4,
+      "q2_recommend": 8,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Loved it — a wider clothing selection would be a bonus."
+    },
+    {
+      "respondent_id": "R0146",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.861,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Great service overall."
+    },
+    {
+      "respondent_id": "R0147",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.973,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "-"
+    },
+    {
+      "respondent_id": "R0148",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.917,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Honestly, nothing major — keep doing what you're doing."
+    },
+    {
+      "respondent_id": "R0149",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.534,
+      "q1_satisfaction": 3,
+      "q2_recommend": 4,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "No major issues, still the sizing on clothing runs inconsistent."
+    },
+    {
+      "respondent_id": "R0150",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.905,
+      "q1_satisfaction": 5,
+      "q2_recommend": 9,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Very smooth from start to finish — perhaps a loyalty program for regulars."
+    },
+    {
+      "respondent_id": "R0151",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 1.0,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0152",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.703,
+      "q1_satisfaction": 3,
+      "q2_recommend": 9,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "All good"
+    },
+    {
+      "respondent_id": "R0153",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.735,
+      "q1_satisfaction": 4,
+      "q2_recommend": 9,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Loved it."
+    },
+    {
+      "respondent_id": "R0154",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.772,
+      "q1_satisfaction": 5,
+      "q2_recommend": 9,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Honestly, nothing major — keep doing what you're doing."
+    },
+    {
+      "respondent_id": "R0155",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.862,
+      "q1_satisfaction": 5,
+      "q2_recommend": 9,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Really happy with the experience — a wider home selection would be a bonus."
+    },
+    {
+      "respondent_id": "R0156",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.641,
+      "q1_satisfaction": 3,
+      "q2_recommend": 4,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Decent experience overall, though it was hard to reach a human when I had a question, and build quality on the home product could be better."
+    },
+    {
+      "respondent_id": "R0157",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.944,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Very smooth from start to finish."
+    },
+    {
+      "respondent_id": "R0158",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.899,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "All good"
+    },
+    {
+      "respondent_id": "R0159",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.758,
+      "q1_satisfaction": 4,
+      "q2_recommend": 7,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Loved it — keep doing what you're doing."
+    },
+    {
+      "respondent_id": "R0160",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.977,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Nothing"
+    },
+    {
+      "respondent_id": "R0161",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.893,
+      "q1_satisfaction": 5,
+      "q2_recommend": 9,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Great service overall."
+    },
+    {
+      "respondent_id": "R0162",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.608,
+      "q1_satisfaction": 4,
+      "q2_recommend": 5,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Decent experience overall, though the returns process was more painful than it should be, and it was hard to reach a human when I had a question."
+    },
+    {
+      "respondent_id": "R0163",
+      "_persona": "detractor",
+      "_latent_satisfaction": 0.189,
+      "q1_satisfaction": 2,
+      "q2_recommend": 0,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Pretty disappointed — build quality on the home product could be better."
+    },
+    {
+      "respondent_id": "R0164",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.835,
+      "q1_satisfaction": 4,
+      "q2_recommend": 9,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Pretty much perfect."
+    },
+    {
+      "respondent_id": "R0165",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.748,
+      "q1_satisfaction": 4,
+      "q2_recommend": 9,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0166",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.847,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Really happy with the experience."
+    },
+    {
+      "respondent_id": "R0167",
+      "_persona": "detractor",
+      "_latent_satisfaction": 0.153,
+      "q1_satisfaction": 1,
+      "q2_recommend": 0,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Really not impressed — the home item felt lower quality than the photos suggested, and support could be more helpful and responsive."
+    },
+    {
+      "respondent_id": "R0168",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.94,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "No real complaints — keep doing what you're doing."
+    },
+    {
+      "respondent_id": "R0169",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.214,
+      "q1_satisfaction": 2,
+      "q2_recommend": 1,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Really not impressed — make returns and refunds simpler and faster."
+    },
+    {
+      "respondent_id": "R0170",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.633,
+      "q1_satisfaction": 3,
+      "q2_recommend": 5,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Decent experience overall, though prices feel a little high compared to competitors, and it was hard to reach a human when I had a question."
+    },
+    {
+      "respondent_id": "R0171",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.764,
+      "q1_satisfaction": 5,
+      "q2_recommend": 8,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Really happy with the experience."
+    },
+    {
+      "respondent_id": "R0172",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.02,
+      "q1_satisfaction": 1,
+      "q2_recommend": 0,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Not a great experience this time — shipping took far longer than the estimate."
+    },
+    {
+      "respondent_id": "R0173",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.773,
+      "q1_satisfaction": 4,
+      "q2_recommend": 8,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Nothing to add"
+    },
+    {
+      "respondent_id": "R0174",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.537,
+      "q1_satisfaction": 2,
+      "q2_recommend": 6,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Decent experience overall, though the parcel came earlier than expected, and the shipping fee felt steep."
+    },
+    {
+      "respondent_id": "R0175",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.0,
+      "q1_satisfaction": 1,
+      "q2_recommend": 0,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Quite let down — the parcel was delayed with no real updates, and build quality on the clothing product could be better."
+    },
+    {
+      "respondent_id": "R0176",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.903,
+      "q1_satisfaction": 5,
+      "q2_recommend": 8,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Great service overall — faster checkout would be a small plus."
+    },
+    {
+      "respondent_id": "R0177",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.991,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Pretty much perfect."
+    },
+    {
+      "respondent_id": "R0178",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.833,
+      "q1_satisfaction": 4,
+      "q2_recommend": 7,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0179",
+      "_persona": "detractor",
+      "_latent_satisfaction": 0.037,
+      "q1_satisfaction": 2,
+      "q2_recommend": 0,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Frustrated, to be honest — prices feel a little high compared to competitors, and shipping took far longer than the estimate."
+    },
+    {
+      "respondent_id": "R0180",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.666,
+      "q1_satisfaction": 3,
+      "q2_recommend": 8,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Decent experience overall, though more competitive pricing would help, and my home item arrived in flimsy packaging."
+    },
+    {
+      "respondent_id": "R0181",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.921,
+      "q1_satisfaction": 5,
+      "q2_recommend": 9,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Great service overall — perhaps a loyalty program for regulars."
+    },
+    {
+      "respondent_id": "R0182",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.697,
+      "q1_satisfaction": 4,
+      "q2_recommend": 6,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "No real complaints."
+    },
+    {
+      "respondent_id": "R0183",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.541,
+      "q1_satisfaction": 3,
+      "q2_recommend": 5,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "No major issues, still the shipping fee felt steep."
+    },
+    {
+      "respondent_id": "R0184",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.755,
+      "q1_satisfaction": 4,
+      "q2_recommend": 7,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Loved it — perhaps a loyalty program for regulars."
+    },
+    {
+      "respondent_id": "R0185",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.93,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0186",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.552,
+      "q1_satisfaction": 4,
+      "q2_recommend": 6,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0187",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.805,
+      "q1_satisfaction": 4,
+      "q2_recommend": 9,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Nothing to add"
+    },
+    {
+      "respondent_id": "R0188",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.648,
+      "q1_satisfaction": 4,
+      "q2_recommend": 4,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Mostly fine, but customer support was slow to respond, and prices feel a little high compared to competitors."
+    },
+    {
+      "respondent_id": "R0189",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 1.0,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Loved it."
+    },
+    {
+      "respondent_id": "R0190",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.306,
+      "q1_satisfaction": 2,
+      "q2_recommend": 2,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Quite let down — the electronics item didn't quite match the description."
+    },
+    {
+      "respondent_id": "R0191",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.883,
+      "q1_satisfaction": 5,
+      "q2_recommend": 9,
+      "q3_category": "Clothing",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Really happy with the experience."
+    },
+    {
+      "respondent_id": "R0192",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.759,
+      "q1_satisfaction": 4,
+      "q2_recommend": 8,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Mostly fine, but the electronics item felt lower quality than the photos suggested."
+    },
+    {
+      "respondent_id": "R0193",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.88,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Loved it — faster checkout would be a small plus."
+    },
+    {
+      "respondent_id": "R0194",
+      "_persona": "satisfied_regular",
+      "_latent_satisfaction": 0.96,
+      "q1_satisfaction": 5,
+      "q2_recommend": 9,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": ""
+    },
+    {
+      "respondent_id": "R0195",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 1.0,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "N/A"
+    },
+    {
+      "respondent_id": "R0196",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.825,
+      "q1_satisfaction": 5,
+      "q2_recommend": 9,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Pretty much perfect — a wider home selection would be a bonus."
+    },
+    {
+      "respondent_id": "R0197",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 1.0,
+      "q1_satisfaction": 5,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "N/A"
+    },
+    {
+      "respondent_id": "R0198",
+      "_persona": "neutral_pragmatist",
+      "_latent_satisfaction": 0.455,
+      "q1_satisfaction": 3,
+      "q2_recommend": 4,
+      "q3_category": "Other",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Decent experience overall, though the other item didn't quite match the description, and the shipping fee felt steep."
+    },
+    {
+      "respondent_id": "R0199",
+      "_persona": "delighted_loyalist",
+      "_latent_satisfaction": 0.907,
+      "q1_satisfaction": 4,
+      "q2_recommend": 10,
+      "q3_category": "Electronics",
+      "q4_delivery_on_time": "Yes",
+      "q5_improve": "Loved it — faster checkout would be a small plus."
+    },
+    {
+      "respondent_id": "R0200",
+      "_persona": "frustrated_shopper",
+      "_latent_satisfaction": 0.163,
+      "q1_satisfaction": 1,
+      "q2_recommend": 0,
+      "q3_category": "Home",
+      "q4_delivery_on_time": "No",
+      "q5_improve": "Frustrated, to be honest — the packaging could be sturdier."
+    }
+  ]
+}

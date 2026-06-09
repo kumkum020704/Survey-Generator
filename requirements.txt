@@ -1,0 +1,12 @@
+# Core generator, validator, CLI and tests use the Python standard library only
+# (Python 3.10+).
+
+# Web backend (server.py) for the dashboard's "Generate" button:
+flask>=3.0.0
+gunicorn>=21.2.0  # production WSGI server (Linux hosts)
+
+# Optional: only needed for the `--llm` open-text augmentation mode.
+# Default provider is Gemini (free tier covers a 200-row run):
+# google-genai>=0.3.0
+# Alternative provider (--llm-provider claude):
+# anthropic>=0.40.0

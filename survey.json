@@ -1,0 +1,40 @@
+{
+  "title": "E-commerce Customer Satisfaction",
+  "description": "Post-purchase satisfaction survey for an online retailer.",
+  "questions": [
+    {
+      "id": "q1_satisfaction",
+      "text": "Overall satisfaction?",
+      "type": "rating",
+      "scale": [1, 5],
+      "role": "satisfaction"
+    },
+    {
+      "id": "q2_recommend",
+      "text": "Likelihood to recommend?",
+      "type": "nps",
+      "scale": [0, 10],
+      "role": "nps"
+    },
+    {
+      "id": "q3_category",
+      "text": "Category purchased?",
+      "type": "single_choice",
+      "options": ["Electronics", "Clothing", "Home", "Other"],
+      "role": "category"
+    },
+    {
+      "id": "q4_delivery_on_time",
+      "text": "Was delivery on time?",
+      "type": "single_choice",
+      "options": ["Yes", "No"],
+      "role": "delivery_on_time"
+    },
+    {
+      "id": "q5_improve",
+      "text": "What could we improve?",
+      "type": "open_text",
+      "role": "open_feedback"
+    }
+  ]
+}
