@@ -1,7 +1,7 @@
 # Design Decisions & Rationale
 
 This document records every meaningful decision made while building the
-Synthetic Survey Response Generator, and *why* each one was chosen over the
+Synthetic Survey Response Generator, and *why* each one was chosen over these
 alternatives. It is the "engineering reasoning" companion to `WRITEUP.md`.
 
 ---
